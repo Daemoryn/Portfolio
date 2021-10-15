@@ -1,0 +1,26 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  text-align: center;
+  box-shadow: 0rem 0rem 4rem 2rem rgba(0,0,0,0.5);
+}
+
+.navbar a {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1.4rem 1.6rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.navbar a.active {
+  color: rgba(255, 255, 255, 1);
+  transition: all .5s;
+}
+
+.navbar a:hover {
+  background-color: rgba(240, 240, 240, 0.8);
+  color: rgba(20, 20, 20, 1);
+  transition: all .5s;
+  box-shadow: 0rem 0rem 5000rem 10rem rgba(0,0,0,0.5);
+  border-radius: 1rem;
+}
