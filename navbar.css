@@ -10,6 +10,7 @@
   padding: 1.4rem 1.6rem;
   text-decoration: none;
   width: 100%;
+  border-radius: 2rem;
 }
 
 .navbar a.active {
@@ -22,5 +23,5 @@
   color: rgba(20, 20, 20, 1);
   transition: all .5s;
   box-shadow: 0rem 0rem 5000rem 10rem rgba(0,0,0,0.5);
-  border-radius: 1rem;
+  border-radius: 0rem;
 }
