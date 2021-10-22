@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  font-family: "Roboto", Roboto, monospace;
+  font-size: 1.5rem;
+  background-color: black;
+}
+
+.bg {
+  background: no-repeat linear-gradient(
+      117deg, rgba(235,0,20,.6), rgba(255,0,0,0) 70.71%
+    ),
+    no-repeat  linear-gradient(
+      27deg, rgba(10,10,10,.6), rgba(0,255,0,0) 70.71%
+    ),
+    no-repeat linear-gradient(
+      236deg, rgba(20,0,235,.6), rgba(0,0,255,0) 70.71%
+    );
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,79 @@
+.bottom_part {
+  margin: 1rem;
+  text-align: center;
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.card {
+  width: 60rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 2rem;
+  margin-top: 7rem;
+}
+
+.card .image {
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+
+.card:hover > .image {
+  filter: blur(1.5rem);
+}
+
+.card::after > .image {
+  filter: inherit;
+}
+
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: none;
+  box-shadow: 0rem 0rem 5rem 2rem rgba(0,0,0,0.5);
+}
+
+.card::after {
+  background-color: inherit;
+  box-shadow: inherit;
+  box-shadow: inherit;
+}
+
+.card-text {
+  position: absolute;
+  top: 0rem;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0%;
+  transition: all .5s;
+}
+
+.card-text:hover {
+  opacity: 100%;
+}
+
+.card-text::after {
+  opacity: inherit;
+}
+
+.projet-title {
+  font-size: 3rem;
+}
+
+.projet-tag {
+  color: rgb(160,160,160);
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.projet-description {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
