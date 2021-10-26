@@ -8,15 +8,20 @@ body {
 }
 
 .bg {
-  background: no-repeat linear-gradient(
-      117deg, rgba(235,0,20,.6), rgba(255,0,0,0) 70.71%
-    ),
-    no-repeat  linear-gradient(
-      27deg, rgba(10,10,10,.6), rgba(0,255,0,0) 70.71%
-    ),
-    no-repeat linear-gradient(
-      236deg, rgba(20,0,235,.6), rgba(0,0,255,0) 70.71%
-    );
+  background-image: linear-gradient(
+    to bottom right,
+    #C00040 0%, #500010 25%, 
+    #100010 50%, #100050 75%, 
+    #4000C0 100%
+  );
+  
+  background-size: 200% 200%;
+  animation: movingGradient 5s linear infinite alternate;    
+}
+
+@keyframes movingGradient {
+  from { background-position: 0 0; }
+  to { background-position: 100% 100%; }
 }
 
 .footer {
