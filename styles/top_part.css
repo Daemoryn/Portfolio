@@ -1,8 +1,36 @@
 .top_part {
-  font-size: 3rem;
-  padding-top: 15rem;
-  padding-bottom: 10rem;
+  font-size: 1.5rem;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
   width: 100%;
   text-align: center;
   text-shadow: #000 0.5rem 0 1rem;
+}
+
+.text-field {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.text1 {
+  display: inline-block;
+  width: 50ch;
+  overflow: hidden;
+  animation: typing1 1s steps(50);
+  animation-duration: 5s;
+}
+
+@keyframes typing1 {
+  0% { 
+    visibility: visible;
+    width: 0ch; 
+    border-right: solid 1px;
+    white-space: wrap;
+  }
+  99% {
+    border-right: solid 1px;
+  }
+  100% {
+    border-right: none;
+  }
 }

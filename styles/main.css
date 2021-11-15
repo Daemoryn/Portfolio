@@ -9,14 +9,15 @@ body {
 
 .bg {
   background-image: linear-gradient(
-    to bottom right,
-    #C00040 0%, #500010 25%, 
-    #100010 50%, #100050 75%, 
-    #4000C0 100%
+    to right,
+    #10001077 0%,
+    #41D1FF77 33%,
+    #1363FF77 66%,
+    #10001077 100%
   );
   
-  background-size: 200% 200%;
-  animation: movingGradient 5s linear infinite alternate;    
+  background-size: 10000% 10000%;
+  animation: movingGradient 20s linear infinite alternate;    
 }
 
 @keyframes movingGradient {
